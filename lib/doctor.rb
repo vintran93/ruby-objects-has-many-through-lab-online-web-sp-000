@@ -27,5 +27,6 @@ class Doctor
   
   def patients
     binding.pry
+  end
   
 end
