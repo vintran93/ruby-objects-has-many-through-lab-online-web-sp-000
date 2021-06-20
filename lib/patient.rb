@@ -1,5 +1,3 @@
-
-
 class Patient
     attr_accessor :doctor, :date, :name
     @@all = []
