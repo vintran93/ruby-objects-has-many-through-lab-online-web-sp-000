@@ -15,5 +15,8 @@ class Genre
     end
   end
   
-  def artists
-    Arist.
+  def genres
+    self.songs.map do |song|
+      song.genre
+  end
+  end
